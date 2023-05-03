@@ -45,7 +45,7 @@ typedef struct {
     char eap_username[32];     // Usuário EAP
     char eap_password[64];     // Senha EAP
     char eap_identity[64];     // Identidade EAP
-} wifi_config_t;
+} _wifi_config_t;
 
 typedef struct {
     char mqtt_server_uri[128]; // Endereço do servidor MQTT

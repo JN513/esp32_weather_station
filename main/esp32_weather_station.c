@@ -129,6 +129,6 @@ void app_main(void) {
                values.gas_resistance, lux, temperature, humidity);
     }
     // passive waiting until 1 second is over
-    vTaskDelayUntil(&last_wakeup, pdMS_TO_TICKS(1000));
+    vTaskDelayUntil(&last_wakeup, pdMS_TO_TICKS(2000));
   }
 }
